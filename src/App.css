@@ -27,3 +27,50 @@
   height: 380px;
   margin: 0 calc(50% - (840px / 2));
 }
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px 0;
+}
+
+section.about-pre-mest {
+  padding: 60px 440px;
+}
+
+.blue {
+  background-color: rgb(142, 238, 255);
+}
+
+.long-text {
+  text-align: justify;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table th {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+table td {
+  padding: 10px;
+}
+
+.button {
+  display: inline-block;
+  background: rgb(28, 32, 82);
+  color: #fff;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 20px;
+  width: 240px;
+  border-radius: 100px;
+  margin: 0 calc(50% - (240px / 2));
+}
