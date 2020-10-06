@@ -20,3 +20,10 @@
 .center {
   text-align: center;
 }
+
+.video {
+  padding: 30px 0;
+  width: 840px;
+  height: 380px;
+  margin: 0 calc(50% - (840px / 2));
+}
