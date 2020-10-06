@@ -2,7 +2,7 @@ import React from "react";
 
 function Spacer() {
     return(
-        <div className="Spacer"></div>
+        <div className="spacer"></div>
     );
 }
 
